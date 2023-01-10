@@ -1,0 +1,211 @@
+*{
+    margin:0;
+    padding:0;
+}
+img{
+    height: auto;
+    max-width: 80%;
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+a{
+    cursor: pointer;
+}
+.container{
+    margin: 3rem 1rem;
+    box-sizing: border-box;
+}
+.header{
+    display:flex;
+}
+.brands{
+  flex:1; 
+}
+.brands img{
+width:60%;
+}
+.search{
+    flex:2;
+    position: relative;
+    display: flex;
+}
+.search input{ 
+    border:1px solid lightgray;
+    width:100%;
+    height:2.5rem;
+    border-radius: 7px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    padding-left: 1rem;
+}
+input[value="lionel messi"]{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.search p{
+    position: absolute;
+    right:9rem;
+    color:grey;
+    top:7px;
+    font-size:20px;
+}
+.search-icons{
+    display: flex;
+   justify-content: space-between;
+    font-size:20px;
+    position: absolute;
+    right:3rem;
+    top:9px;
+}
+.search-icons i{
+    margin-left: .5rem;
+}
+.settings{
+    flex:1;
+    display: flex;
+    margin-left: 15rem;
+
+}
+.settings i, .settings p{
+    margin-left: 1rem;
+    font-size:20px;
+    text-align: center;
+}
+.settings p{
+    background-color: pink;
+    border-radius: 90%;
+    height:2rem;
+    color:white;
+   text-align: center; 
+}
+
+/**Media*/
+.sub-head{
+    margin-left: 17rem;
+}
+.media{
+display:flex;
+margin:1rem 0;
+}
+.media p{
+    margin-right: 1rem;
+}
+.active{
+    border-bottom: 4px solid blue;
+}
+.far{
+    margin-left: 33rem;
+}
+.grey{
+    color:grey;
+}
+.intro{
+    display: flex;
+    margin:1rem 0;
+}
+.name{
+   margin-left: 1.5rem;
+   margin-right: 2rem; 
+}
+.intro img{
+    max-width: 5%;
+    border-radius: 5px;
+}
+.intro button{
+    border: none;
+    outline:none;
+    height: 40px;
+    font-size: 16px;
+padding-top:0.5rem;
+padding-bottom:1rem;
+padding-left:1rem;
+padding-right:1rem;
+/*width:60%;*/
+border-radius:.5rem;
+background-color: lightgray;
+}
+.intro button:hover{
+    background-color: rgb(181, 181, 181); 
+}
+/*Main*/
+.main-container{
+    border-top: 1px solid lightgrey;
+    display: flex;
+}
+.main{
+    border-right: 1px solid lightgrey; 
+    margin-left: 17rem;
+}
+.stories{
+    margin:2rem 0;
+}
+h2, h3{
+    margin:1rem 0;
+}
+.gallery{
+    display: flex;   
+}
+.gallery img{
+    max-width: 10%;
+    border-radius: 5px;
+}
+.top-card{
+    display: flex;
+    border-top: 1px solid lightgrey;
+}
+.brand{
+    color:white;
+    background-color: red;
+    padding:.5rem;
+    font-weight: bold;
+    width:50px;
+}
+.time{
+    margin-top:1.5rem;
+}
+.top-card a{
+    font-size: 20px;
+    line-height: 1.7rem;
+    color:rgb(101, 101, 206)
+}
+.top-card a:hover{
+    text-decoration: none;
+}
+.top-card img{
+    border-radius:5px;
+}
+.sh{
+    border-left: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+}
+.card1{
+    border-bottom: 1px solid lightgrey;
+}
+.card1 a{
+  font-size: 20px;
+  margin-top: 1rem;
+}
+.card-info{
+    display: flex;
+}
+.card-info img{
+   width:15%;
+}
+.containerr{
+    display: flex;
+    margin: 3rem 1rem;
+    box-sizing: border-box;
+}
+.about {
+    margin: 5rem 1rem;
+}
+.about p{
+    font-size:17px;
+    line-height: 1.7rem;
+    margin-top:1.5rem
+}
+.about span{
+    font-weight: bold;
+}
